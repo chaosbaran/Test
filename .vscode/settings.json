@@ -5,5 +5,8 @@
         "Nhap",
         "nhat",
         "xuat"
-    ]
+    ],
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }

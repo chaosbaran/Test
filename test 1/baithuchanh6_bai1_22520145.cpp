@@ -3,7 +3,7 @@
 using namespace std;
 
 // Nhập mảng một chiều
-void input(int *&p, int n){
+void nhap(int *&p, int n){
     p =	new	int[n];
     for	(int i = 0; i < n; i++) {
         cout << "Phan tu thu " << i << ": ";
@@ -13,7 +13,7 @@ void input(int *&p, int n){
 }
 
 // Xuất mảng một chiều
-void output(int *&p, int n){
+void xuat(int *&p, int n){
     cout << "Cac phan tu trong mang: ";
     for	(int i = 0; i < n; i++)
         cout << p[i] << " ";
@@ -97,8 +97,8 @@ int main(){
     int	*a, n, x;
     cout << "Nhap so phan tu n cua mang: ";
     cin >> n;
-    input(a, n);
-    output(a, n);
+    nhap(a, n);
+    xuat(a, n);
     cout << "Tong cac phan tu trong mang: " << b1(a, n) << "\n\n";
     c1(a, n);
     cout << "Nhap phan tu x can dem: ";
