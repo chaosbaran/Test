@@ -93,6 +93,7 @@ void g1(int *&p, int n){
     cout << "\n\n";
 }
 
+//Thử nghiệm
 int main(){
     int	*a, n, x;
     cout << "Nhap so phan tu n cua mang: ";
