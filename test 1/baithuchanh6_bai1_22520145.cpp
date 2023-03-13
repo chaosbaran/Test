@@ -13,15 +13,15 @@ void nhap(int *&p, int n){
 }
 
 // Xuất mảng một chiều
-void xuat(int *&p, int n){
+void xuat(int *p, int n){
     cout << "Cac phan tu trong mang: ";
     for	(int i = 0; i < n; i++)
         cout << p[i] << " ";
     cout << "\n\n";
 }
 
-// Tổng các phần tử trong mảng
-int b1(int *&p,	int n){
+// Tổng các phần tử trong mảng all
+int b1(int *p,	int n){
     int t = 0;
     for	(int i = 0; i < n; i++)
         t += p[i];
