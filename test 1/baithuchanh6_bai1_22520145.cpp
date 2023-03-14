@@ -12,7 +12,7 @@ void nhap(int *&p, int n){
     cout << "\n\n";
 }
 
-// Xuất mảng một chiều
+// Xuất mảng một chiều test
 void xuat(int *&p, int n){
     cout << "Cac phan tu trong mang: ";
     for	(int i = 0; i < n; i++)
@@ -56,7 +56,7 @@ int d1(int *&p,	int n, int x){
 }
 
 // Xuất các phần tử chẵn nhỏ hơn 20
-void e1(int *&p,	int n){
+void e1(int *&p, int n){
     cout << "Cac phan tu chan nho hon 20 trong mang: ";
     for	(int i = 0; i < n; i++)
         if (p[i] % 2 == 0 && p[i] < 20)
@@ -93,6 +93,7 @@ void g1(int *&p, int n){
     cout << "\n\n";
 }
 
+//Thử nghiệm
 int main(){
     int	*a, n, x;
     cout << "Nhap so phan tu n cua mang: ";
